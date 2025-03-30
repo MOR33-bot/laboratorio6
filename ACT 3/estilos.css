@@ -52,10 +52,13 @@
     background-color: rgb(255, 255, 255);
 }
 
+body{
+    background-color: rgb(174, 228, 174) !important; 
+}
 
 .logo{
-    height: 100px;
-    width: 500px;
+    height: 80px;
+    width: 400px;
 
 }
 
@@ -141,5 +144,4 @@
     background-size: cover;
     border: 1px solid rgba(255, 255, 255, 0.3);
     
-      
 }
