@@ -1,0 +1,148 @@
+
+@media (min-width: 992px) { 
+    .alto-100 {
+        height: 100vh;
+    }
+
+}  
+
+.navbar {
+    background-color: rgba(255, 255, 255, 0.945);
+    box-shadow: 0 2px 4px rgb(0, 0, .05);
+    min-height: 50px;
+}
+
+.nav-link{
+    color: black;
+    margin-left: 15px;
+    text-align: justify; 
+    font-size: 0.8rem; 
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.nav-link {
+    transition: transform 0.1s ease, 
+    box-shadow 0.1s ease;
+}
+
+.nav-link:active {
+    background-color: azure;
+    transform: scale(0.9); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); 
+}
+
+.mine{
+    min-width: 100px;
+    max-width: 200px;
+    margin-left: 50px;
+}
+
+.navbar-toggler {
+    font-size: 40px;
+}
+
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.cuadro {
+    background-color: rgb(255, 255, 255);
+}
+
+body {
+    background-color: rgb(233, 129, 129)!important;
+}
+
+.logo{
+    height: 100px;
+    width: 500px;
+
+}
+
+.mine2 {
+    min-width: 50px;
+    max-width: 100px;
+    margin-right: 50px;
+}
+
+.text {
+    text-align: center;
+}
+
+  .fondo-card {
+      background-color: rgb(255, 255, 255); 
+      transition: opacity 0.3s ease-in-out; 
+  }
+
+  .fondo-card.oculto {
+    opacity: 0.3; 
+}
+
+.over {
+    background-image: url(images/Overworld_1.18.webp);
+    
+}
+
+.nether {
+    background-image: url(images/maxresdefault.jpg);
+}
+
+.end {
+    background-image: url(images/202062918271542_1.jpg);
+}
+
+.topleft {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  font-size: 18px;
+}
+
+.topright {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+.diamond {
+    min-width: 30px;
+    max-width: 50px;
+    
+}
+
+.dirt {
+  position: absolute;
+  top: 50%;
+  margin-left:55px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.verr {
+    position: absolute;
+    top: 50%;
+    margin-left:45px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.stone {
+    position: absolute;
+    top: 50%;
+    margin-left:40px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.minecraft{
+    background-image: url(images/image.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+    background-size: cover;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    
+      
+}
